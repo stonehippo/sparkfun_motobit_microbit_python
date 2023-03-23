@@ -26,7 +26,7 @@ def interp(v, a, b, a_prime, b_prime):
   return int(((v - a) / (b - a)) * (b_prime - a_prime) + a_prime)
 
 def motobit_write(value):
-  12c.write(MOTOBIT_ADDR, (value).to_bytes(2, 'big'))
+  i2c.write(MOTOBIT_ADDR, (value).to_bytes(2, 'big'))
   
 def motobit_enable():
   motobit_write(MOTOBIT_ENABLE)
