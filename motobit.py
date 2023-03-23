@@ -15,7 +15,7 @@ MOTOBIT_DISABLE = const(28672)
 MOTOBIT_RIGHT_MOTOR= const(8192)
 MOTOBIT_LEFT_MOTOR= const(8448)
 MOTOBIT_FORWARD = const(0)
-MOTOBIT_REVERSE = const(0)
+MOTOBIT_REVERSE = const(1)
 
 # helper implementation of interp (map a value from one range to another)
 def interp(v, a, b, a_prime, b_prime):
