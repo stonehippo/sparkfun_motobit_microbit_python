@@ -1,5 +1,5 @@
 # sparkfun_motobit_microbit_python
-A micro:bit Python implementation of the Sparkfun Moto:bit driver.
+A micro:bit MicroPython implementation of the Sparkfun Moto:bit driver.
 
 The [Sparkfun moto:bit](https://www.sparkfun.com/products/15713) is a carrier board for the [BBC micro:bit](https://microbit.org) that provides a set of motor and servo drivers, sensor inputs, and an I2C interface for simple robotics.
 
@@ -12,6 +12,8 @@ This driver is a simple reimplementation of the API from the PXT module, with a 
 - The module includes a basic implementation of `interp`, since the micro:bit doesn't include MicroPython's _ulab_
 
 ## Usage
+
+To use the module, drag `motobit.py` onto the micro:bit Python editor, or select `Open...` and load the module. Once it's loaded, usage is simple:
 
 ```
 from motobit import *
